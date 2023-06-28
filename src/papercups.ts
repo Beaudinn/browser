@@ -25,7 +25,7 @@ export type Config = {
 };
 
 // TODO: split into smaller modules? (e.g. decouple socket/channel from other logic)
-export class Papercups {
+export class Freeday {
   socket: Socket;
   channel?: Channel;
   logger: Logger;
@@ -65,7 +65,7 @@ export class Papercups {
   }
 
   static init = (config: Config) => {
-    return new Papercups(config);
+    return new Freeday(config);
   };
 
   static open = () => window.dispatchEvent(new Event('papercups:open'));
@@ -536,7 +536,7 @@ export class Papercups {
       return isValidCustomer;
     } catch (err) {
       this.logger.warn('Failed to validate customer ID.');
-      this.logger.warn('You might be on an older version of Papercups.');
+      this.logger.warn('You might be on an older version of Freeday.');
       // Return true for backwards compatibility
       return true;
     }

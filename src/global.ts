@@ -1,8 +1,8 @@
 import 'regenerator-runtime/runtime';
-import {Papercups} from './index';
+import {Freeday} from './index';
 
 const w = window as any;
-const config = (w.Papercups && w.Papercups.config) || {};
+const config = (w.Freeday && w.Freeday.config) || {};
 const {
   accountId,
   customerId,
@@ -22,10 +22,10 @@ const {
 } = config;
 
 if (!accountId) {
-  throw new Error('An account token is required to start Papercups!');
+  throw new Error('An account token is required to start Freeday!');
 }
 
-Papercups.init({
+Freeday.init({
   accountId,
   customerId,
   baseUrl,

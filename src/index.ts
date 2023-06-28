@@ -1,4 +1,4 @@
-export {Papercups} from './papercups';
+export {Freeday} from './papercups';
 export type {Config} from './papercups';
 export type {
   Account,

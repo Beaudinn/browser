@@ -1,11 +1,11 @@
-# @papercups-io/browser
+# @freeday-ai/browser
 
-> Papercups browser JS/TS library
+> Freeday browser JS/TS library
 
-[![NPM](https://img.shields.io/npm/v/@papercups-io/browser.svg)](https://www.npmjs.com/package/@papercups-io/browser)
+[![NPM](https://img.shields.io/npm/v/@freeday-ai/browser.svg)](https://www.npmjs.com/package/@freeday-ai/browser)
 
 ## Install
 
 ```bash
-npm install --save @papercups-io/browser
+npm install --save @freeday-ai/browser
 ```

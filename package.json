@@ -1,10 +1,10 @@
 {
-  "name": "@papercups-io/browser",
+  "name": "@freeday-ai/browser",
   "version": "0.0.4-beta.0",
   "description": "Papercups browser library",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/papercups-io/browser.git"
+    "url": "git+https://github.com/freeday-ai/browser.git"
   },
   "author": "reichertjalex@gmail.com",
   "license": "MIT",
@@ -52,7 +52,7 @@
     "prettier": "^2.0.5",
     "rollup": "^2.18.2",
     "sinon": "9.0.2",
-    "typescript": "^3.9.6"
+    "typescript": "^5.1.0-beta"
   },
   "husky": {
     "hooks": {
@@ -67,10 +67,11 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/papercups-io/storytime/issues"
+    "url": "https://github.com/freeday-ai/storytime/issues"
   },
-  "homepage": "https://github.com/papercups-io/storytime#readme",
+  "homepage": "https://github.com/freeday-ai/storytime#readme",
   "dependencies": {
+    "@rollup/plugin-json": "^6.0.0",
     "axios": "^0.21.1",
     "phoenix": "^1.5.9"
   }
